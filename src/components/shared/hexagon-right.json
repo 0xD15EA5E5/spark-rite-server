@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_hexagon_rights",
+  "info": {
+    "displayName": "Single Hexagon Block",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "blocks"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_triple_hexagon_blocks",
+  "info": {
+    "displayName": "Triple Hexagon Block",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "blocks"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

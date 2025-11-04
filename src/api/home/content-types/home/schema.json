@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Panel": {
+      "type": "component",
+      "component": "shared.scroll-banner",
+      "repeatable": true
+    },
+    "HexagonBlock": {
+      "type": "component",
+      "component": "shared.hexagon-right",
+      "repeatable": true
+    },
+    "TripleHexagonBlock": {
+      "type": "component",
+      "component": "shared.triple-hexagon-block",
+      "repeatable": false
+    }
+  }
+}

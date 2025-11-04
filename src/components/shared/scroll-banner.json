@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_scroll_banners",
+  "info": {
+    "displayName": "Scroll Banner",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Enabled": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
