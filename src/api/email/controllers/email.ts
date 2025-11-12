@@ -22,7 +22,8 @@ export default factories.createCoreController("api::email.email", ({strapi}) => 
         subject: 'Contact Form',
         html: emailmessage
       })
-      ctx.body = 'ok';
+      var res = {'success':'ok'};
+      ctx.body = JSON.stringify(res);
     } catch (err) {
       ctx.body = err;
     }
