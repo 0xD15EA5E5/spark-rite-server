@@ -1,18 +1,17 @@
 {
   "kind": "singleType",
-  "collectionName": "abouts",
+  "collectionName": "services",
   "info": {
-    "singularName": "about",
-    "pluralName": "abouts",
-    "displayName": "About",
-    "description": "Write about yourself and the content you create"
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Services"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
     "Header": {
@@ -28,7 +27,7 @@
     "Intro": {
       "type": "component",
       "component": "shared.hexagon-right",
-      "repeatable": true
+      "repeatable": false
     },
     "LowerContent": {
       "type": "blocks"
